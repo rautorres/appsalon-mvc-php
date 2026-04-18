@@ -1,0 +1,22 @@
+.seccion {
+    padding: 5rem 0;
+    display: none;
+
+    .text-center {
+        text-align: center;
+    }
+}
+
+.mostrar {
+    display: block;
+}
+.ocultar {
+    display: none;
+}
+
+    /*
+    &:nth-child(3),
+    &:nth-child(4) {
+        
+    }
+    */

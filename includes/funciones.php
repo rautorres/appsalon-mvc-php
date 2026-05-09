@@ -33,7 +33,7 @@ function isAdmin() : void {
         session_start();
     }
 
-    if(!isset($_SESSION['login']) || $_SESSION['admin'] !== 1) {
+    if(!isset($_SESSION['login']) || $_SESSION['admin'] != 1) {
         header('Location: /');
         exit;
     }
